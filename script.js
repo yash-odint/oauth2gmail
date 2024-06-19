@@ -6,7 +6,7 @@ function signIn(){
     form.setAttribute("action", oauth2endpoint);
 
     var params = {
-        'client_id': '47048427879-io0lcidossljgr38mnku4kjg1tdp96rf.apps.googleusercontent.com',
+        'client_id': 'YOUR CLIENT ID',
         'redirect_uri': 'http://127.0.0.1:5500/profile.html',
         'response_type': 'token',
         'scope': 'https://mail.google.com/',
